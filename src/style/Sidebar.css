@@ -1,0 +1,23 @@
+.sidebar {
+  background-color: rgb(245, 240, 248);
+  height: 80vh;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.link {
+  position: relative;
+  top: 15px;
+  left: 20px;
+  font-size: 20px;
+  opacity: 0.9;
+  transition: 0.3s;
+  cursor: default;
+}
+
+.link:hover {
+  font-size: 23px;
+  font-weight: bold;
+  opacity: 1;
+}
