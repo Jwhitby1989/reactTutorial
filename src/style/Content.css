@@ -1,10 +1,20 @@
 .content {
-  background-color: rgb(249, 225, 147);
-
-  height: 80vh;
+  height: 33%;
+  width: 33%;
+  background-color: rgb(245, 240, 248);
+  height: 200px;
   border: 1px solid black;
   box-sizing: border-box;
   display: inline-block;
+  transition: all 0.3s ease-in-out;
+  align-self: center;
+  border-radius: 5px;
+}
+
+.content:hover {
+  background-color: lightcyan;
+  transform: scale(1.1);
+  transition-delay: 0.1s;
 }
 
 .contentTitle {

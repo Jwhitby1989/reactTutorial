@@ -1,4 +1,4 @@
-.sidebar {
+.infobar {
   height: 33%;
   width: 33%;
   background-color: rgb(245, 240, 248);
@@ -11,7 +11,16 @@
   border-radius: 5px;
 }
 
-.link {
+.infobar:hover {
+  background-color: lightcyan;
+  font-size: 23px;
+  font-weight: bold;
+  opacity: 1;
+  transform: scale(1.1);
+  transition-delay: 0.1s;
+}
+
+.infoText {
   position: relative;
   top: 15px;
   left: 20px;
@@ -19,16 +28,4 @@
   opacity: 0.9;
   transition: 0.3s;
   cursor: default;
-}
-
-.link:hover {
-  font-size: 23px;
-  font-weight: bold;
-  opacity: 1;
-}
-
-.sidebar:hover {
-  background-color: lightcyan;
-  transform: scale(1.1);
-  transition-delay: 0.1s;
 }
