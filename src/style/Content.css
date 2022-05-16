@@ -1,6 +1,6 @@
 .content {
   height: 33%;
-  width: 33%;
+  width: 100%;
   background-color: rgb(245, 240, 248);
   height: 200px;
   border: 1px solid black;
@@ -25,14 +25,14 @@
   font-weight: bolder;
   font-size: 20px;
   position: relative;
-  left: 15px;
+  left: 10px;
   top: 14px;
   justify-items: center;
 }
 .contentText {
   position: relative;
-  padding: 10px;
-  left: 15px;
+  padding: 12px;
+  left: 5px;
   top: 5px;
   font-size: 20px;
 }

@@ -10,13 +10,12 @@ function App() {
       <div className="row1">
         <Navbar />
       </div>
-      <div className="row2">
-        <Sidebar className="col1" />
 
-        <Content className="col2" />
+      <Sidebar className="col1" />
 
-        <Infobar className="col3" />
-      </div>
+      <Content className="col2" />
+
+      <Infobar className="col3" />
     </div>
   );
 }

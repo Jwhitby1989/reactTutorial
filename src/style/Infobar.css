@@ -1,6 +1,6 @@
 .infobar {
   height: 33%;
-  width: 33%;
+  width: 100%;
   background-color: rgb(245, 240, 248);
   height: 200px;
   border: 1px solid black;
@@ -23,7 +23,7 @@
 .infoText {
   position: relative;
   top: 15px;
-  left: 20px;
+  left: 15px;
   font-size: 20px;
   opacity: 0.9;
   transition: 0.3s;
