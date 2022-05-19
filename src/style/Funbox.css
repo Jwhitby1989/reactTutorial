@@ -1,6 +1,6 @@
-.infobar {
-  width: 100%;
-  height: 170px;
+.funbox {
+  width: 308%;
+  height: 100px;
   background-color: rgb(245, 240, 248);
   border: 1px solid black;
   box-sizing: border-box;
@@ -10,21 +10,16 @@
   border-radius: 5px;
 }
 
-.infobar:hover {
-  background-color: lightcyan;
-  font-size: 23px;
-  font-weight: bold;
-  opacity: 1;
-  transform: scale(0.9);
-  transition-delay: 0.1s;
+.funbox :hover {
+  animation: alternate;
 }
 
-.infoText {
+.funText {
   position: relative;
+  align-content: center;
   top: 15px;
-  left: 15px;
+  left: 25px;
   font-size: 20px;
   opacity: 0.9;
   transition: 0.3s;
-  cursor: default;
 }
